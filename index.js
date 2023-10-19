@@ -29,6 +29,7 @@ function moveDodgerRight() {
     }
 }
 
+// add an Event Listener to the code manipulated by the local browser (the DOM) via document
 document.addEventListener("keydown", function (e) {
     if (e.key === "ArrowRight") { // Check for the right arrow key
       moveDodgerRight();
